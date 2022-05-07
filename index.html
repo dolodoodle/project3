@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5</title>
+    <link rel="stylesheet" href="c/main.css">
+    <script src="j/main.js" defer></script>
+    
+</head>
+<body>
+
+    <h1>HTML5 Video w/ Java</h1>
+    <main id="container">
+
+    <audio class="lets-rumble" controls>
+        <source src="a/lets-get-ready-to-rumble.mp3" type="audio/mp3">
+        <p>Here is a link to the audio file itself
+            <a href="a/lets-get-ready-to-rumble.mp3">Audio here</a>
+        </p>
+    </audio>
+    <button id="stop">stop</button>
+
+    <video class="smb" controls>
+        <source src="v/smb_trailer.ogv" type="video/ogv">
+        <source src="v/smb_trailer.mp4" type="video/mp4">
+        <source src="v/smb-64-commercial.mp4" type="video/mp4">
+        <p>Here is a link to the video file itself
+            <a href="v/smb_trailer.mp4">Video here</a>
+        </p>
+    </video>
+
+    <button id="play" type="button">Play </button>
+    <button id="pause" type="button">Pause </button><br> 
+    <button id="fast" type="button">Fast Forward</button><br> 
+    <button id="slow" type="button">Slowmo</button><br> 
+    <button id="normal" type="button">Normal Speed</button><br> 
+    <button id="begining" type="button">Begining</button><br> 
+
+    <fieldset>
+        <select id="video_select">
+            <option>Select a video to play...</option>
+            <option value="v/smb_trailer.mp4">Trailer</option>
+            <option value="v/smb-64-commercial.mp4">64 Commercial</option>
+        </select>
+    </fieldset>
+
+    </main>
+
+</body>
+</html>

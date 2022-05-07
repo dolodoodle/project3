@@ -1,0 +1,42 @@
+
+.lets-rumble {
+    display: block;
+    margin: auto;
+}
+
+
+.smb {
+    display:block;
+    margin: auto;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#container {
+    position: relative;
+    margin:auto;
+    max-width: 400px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    
+
+.lets-rumble {
+    display: block;
+    margin: auto;
+}
+
+
+.smb {
+    display:block;
+    margin: auto;
+    max-width: 400px;
+}
+
+}

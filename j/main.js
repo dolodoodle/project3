@@ -1,7 +1,6 @@
 
 const letsRumble = document.querySelector('.lets-rumble');
 const smb = document.querySelector('.smb');
-const selectVid = document.querySelector("#video_select");
 letsRumble.src = "a/lets-get-ready-to-rumble.mp3";
 letsRumble.load();
 
